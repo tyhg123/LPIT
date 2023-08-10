@@ -95,7 +95,7 @@ void init()
     LPIT0->SETTEN |= LPIT_SETTEN_SET_T_EN_1_MASK;
 
 }
-
+// add comment
 void LPIT0_IRQHandler()
 {
 	GPIOB->PTOR |= RED_LED_PIN;
